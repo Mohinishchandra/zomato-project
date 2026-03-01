@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f8f8f8;
+}
+
+.hero {
+  background: #e23744;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+.restaurants {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
