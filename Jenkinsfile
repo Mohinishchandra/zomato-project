@@ -27,7 +27,7 @@ pipeline {
                     passwordVariable: 'PASS'
                 )]) {
                     sh '''
-                    echo mohnish123 | docker login -u $USER --password-stdin
+                    echo dckr_pat_cEiwVxBISHtFwHie4Mp3UEkfifQ | docker login -u $USER --password-stdin
                     docker push $IMAGE:latest
                     '''
                 }
