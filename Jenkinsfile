@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE = "mohnish887/zomato-clone"
+        IMAGE = "mohnishchandra887/zomato-clone"
     }
 
     stages {
@@ -27,7 +27,7 @@ pipeline {
                     passwordVariable: 'PASS'
                 )]) {
                     sh '''
-                    echo dckr_pat_cEiwVxBISHtFwHie4Mp3UEkfifQ | docker login -u $USER --password-stdin
+                    echo mohnish123 | docker login -u $USER --password-stdin
                     docker push $IMAGE:latest
                     '''
                 }
